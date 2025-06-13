@@ -89,8 +89,8 @@ namespace HPScreen.Entities
         }
         protected void ResetAnimation()
         {
-            //HallucinateTimer = Ran.Current.Next(4500, 21000);
-            HallucinateTimer = Ran.Current.Next(85, 310);
+            HallucinateTimer = Ran.Current.Next(4500, 17000);
+            //HallucinateTimer = Ran.Current.Next(85, 310);
             AnimationIndex = 0;
             AnimationIndexTimer = 0;
         }
